@@ -7,6 +7,23 @@
     android:layout_height="match_parent"
     tools:context=".fragment.PetPerfilFragment">
 
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/civMascota"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/funny_dog"
+        app:civ_border="true"
+        app:civ_border_color="@color/colorPrimary"
+        app:civ_border_width="2dp"
+        app:civ_shadow="false"
+        app:civ_shadow_color="@color/colorAccent"
+        app:civ_shadow_radius="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvPerfilMascotas"
@@ -27,26 +44,8 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="221dp" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="185dp"
-        android:layout_height="168dp"
-        android:layout_marginStart="116dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="110dp"
-        android:layout_marginBottom="37dp"
-        android:foreground="@drawable/funny_dog"
-        app:layout_constraintBottom_toTopOf="@+id/txtPetName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        tools:src="@tools:sample/avatars" />
+        app:layout_constraintTop_toBottomOf="@+id/civMascota" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
