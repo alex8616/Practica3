@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">mascotas semana 3</string>
+    <string name="menu_titulo">Configuración</string>
+    <string name="foto_mascota">Foto de mascota</string>
+    <string name="dialog_title_ranking">Ranking de mascota</string>
+    <string name="dialog_msj_ranking">"El rankede de la mascota "</string>
+    <string name="dialog_btnAceptar">Aceptar</string>
+    <string name="menu_titulo_contacto">Contacto</string>
+    <string name="menu_titulo_acerca">Acerca de</string>
+    <string name="contacto_nombre">Nombre</string>
+    <string name="contacto_email">Correo</string>
+    <string name="contacto_mensaje">Mensaje</string>
+    <string name="contacto_enviar_comentario">Enviar comentario</string>
+    <string name="about_yo">coursera aprendiendo nuevas cosas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="perfil_nombre_mascota">mascotas</string>
+    <string name="contacto_email_subject">Envio de Comentario en aplicación MyPet</string>
+    <string name="contacto_progress_title">Por favor espere</string>
+    <string name="contacto_progress_mensaje">Enviando mensaje...</string>
+    <string name="contacto_alerta_titulo">Correo enviado</string>
+    <string name="contacto_alerta_mensaje">Gracias por su comentario.</string>
+    <string name="contacto_alerta_btnOK">OK</string>
+    <string name="contacto_mensaje_error_envio">Algo salio mal!!!</string>
+    <string name="cardview_mascota_desc">Agregar puntuacion</string>
+    <string name="cardview_mascotas_liks">Cantidad de liks</string>
+    <string name="cardview_perfil_liks">Cantidad de liks</string>
+
+</resources>
